@@ -1,0 +1,48 @@
+import { c as create_ssr_component, v as validate_component } from './index2-ac850178.js';
+import { F as Footer } from './footer-be8a594c.js';
+
+const css = {
+  code: '.contact-div.svelte-19lgsd.svelte-19lgsd{background-image:url("../images/theme2.jpg")}.container.svelte-19lgsd.svelte-19lgsd{width:90%;max-width:1200px;margin:auto;padding:2rem 0}.contact-section.svelte-19lgsd.svelte-19lgsd{padding:4rem 0;animation:svelte-19lgsd-fadeIn 1.5s ease-out}.contact-section.svelte-19lgsd h2.svelte-19lgsd{text-align:center;margin-bottom:3rem;font-size:2.5rem;color:#1F618D;opacity:0;transform:translateY(-20px);animation:svelte-19lgsd-slideIn 1s forwards;animation-delay:0.5s;font-family:"Open sans"}.contact-content.svelte-19lgsd.svelte-19lgsd{display:flex;flex-wrap:wrap;gap:2rem;margin-bottom:2rem;opacity:0;transform:translateY(20px);animation:svelte-19lgsd-slideInUp 1s forwards;animation-delay:1s}.contact-info.svelte-19lgsd.svelte-19lgsd,.contact-form.svelte-19lgsd.svelte-19lgsd{flex:1 1 400px;background-color:rgb(237, 255, 237);padding:1.5rem;border-radius:8px;box-shadow:rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;transition:transform 0.3s ease, box-shadow 0.3s ease;font-family:"Open sans"}.contact-info.svelte-19lgsd.svelte-19lgsd:hover,.contact-form.svelte-19lgsd.svelte-19lgsd:hover{transform:translateY(-5px);box-shadow:0 6px 12px rgba(0, 0, 0, 0.15)}.contact-info.svelte-19lgsd h3.svelte-19lgsd{margin-bottom:1rem;color:#2c3e50;font-size:30px}.contact-info.svelte-19lgsd p.svelte-19lgsd{margin-bottom:0.75rem;font-size:15px}.social-links.svelte-19lgsd.svelte-19lgsd{margin-top:1rem}.social-links.svelte-19lgsd a.svelte-19lgsd{text-decoration:none;color:#2c3e50;font-size:1.5rem;margin-right:0.5rem;transition:color 0.3s ease, transform 0.3s ease}.social-links.svelte-19lgsd a.svelte-19lgsd:hover{color:#18bc9c;transform:scale(1.2)}.contact-form.svelte-19lgsd form .form-group.svelte-19lgsd{margin-bottom:1.5rem;position:relative}.contact-form.svelte-19lgsd label.svelte-19lgsd{display:block;margin-bottom:0.5rem;font-weight:bold;color:#2c3e50}.contact-form.svelte-19lgsd label span.svelte-19lgsd{color:red}.contact-form.svelte-19lgsd input.svelte-19lgsd,.contact-form.svelte-19lgsd textarea.svelte-19lgsd{width:100%;padding:0.75rem;border:1px solid #ccc;border-radius:4px;font-size:1rem;transition:border-color 0.3s ease, box-shadow 0.3s ease}.contact-form.svelte-19lgsd input.svelte-19lgsd:focus,.contact-form.svelte-19lgsd textarea.svelte-19lgsd:focus{border-color:#18bc9c;outline:none;box-shadow:0 0 5px rgba(24, 188, 156, 0.5)}.btn.svelte-19lgsd.svelte-19lgsd{display:inline-block;background-color:#18bc9c;color:#fff;padding:0.75rem 1.5rem;border:none;border-radius:4px;cursor:pointer;transition:background-color 0.3s ease, transform 0.3s ease;font-size:1rem}.btn.svelte-19lgsd.svelte-19lgsd:hover{background-color:#149b7e;transform:translateY(-3px)}.map.svelte-19lgsd.svelte-19lgsd{margin-top:2rem;opacity:0;transform:scale(0.95);animation:svelte-19lgsd-zoomIn 1s forwards;animation-delay:1.5s}.map.svelte-19lgsd iframe.svelte-19lgsd{width:100%;height:450px;border:0;border-radius:8px;transition:transform 0.3s ease}.map.svelte-19lgsd iframe.svelte-19lgsd:hover{transform:scale(1.02)}@keyframes svelte-19lgsd-fadeIn{to{opacity:1}}@keyframes svelte-19lgsd-slideIn{to{opacity:1;transform:translateY(0)}}@keyframes svelte-19lgsd-slideInUp{to{opacity:1;transform:translateY(0)}}@keyframes svelte-19lgsd-zoomIn{to{opacity:1;transform:scale(1)}}@media(max-width: 992px){.contact-content.svelte-19lgsd.svelte-19lgsd{flex-direction:column}}@media(max-width: 768px){.contact-section.svelte-19lgsd.svelte-19lgsd{padding:2rem 0}.contact-section.svelte-19lgsd h2.svelte-19lgsd{font-size:2rem}.map.svelte-19lgsd iframe.svelte-19lgsd{height:300px}}@media(max-width: 480px){.contact-section.svelte-19lgsd h2.svelte-19lgsd{font-size:1.8rem}.btn.svelte-19lgsd.svelte-19lgsd{width:100%;text-align:center}.social-links.svelte-19lgsd a.svelte-19lgsd{font-size:1.2rem;margin-right:0.3rem}}.contact-container.svelte-19lgsd.svelte-19lgsd{display:flex;justify-content:space-around;align-items:center;margin:50px auto;padding:20px;flex-wrap:wrap;max-width:1200px}.contact-box.svelte-19lgsd.svelte-19lgsd{flex:1 1 300px;background-color:rgb(237, 255, 237);margin:15px;padding:20px;border-radius:10px;box-shadow:rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;text-align:center;transition:transform 0.3s ease, box-shadow 0.3s ease}.contact-box.svelte-19lgsd.svelte-19lgsd:hover{transform:scale(1.05);box-shadow:0 8px 16px rgba(0, 0, 0, 0.2)}.contact-box.svelte-19lgsd .icon.svelte-19lgsd{font-size:40px;margin-bottom:10px;color:#2a4365}.contact-box.svelte-19lgsd h3.svelte-19lgsd{font-size:1.5rem;color:#2a4365;margin-bottom:10px;font-family:"Open sans"}.contact-box.svelte-19lgsd p.svelte-19lgsd{font-size:1rem;color:#4a5568;font-family:"Open sans"}@media(max-width: 768px){.contact-container.svelte-19lgsd.svelte-19lgsd{flex-direction:column;align-items:stretch}.contact-box.svelte-19lgsd.svelte-19lgsd{margin:10px auto;width:90%}.contact-box.svelte-19lgsd h3.svelte-19lgsd{font-size:1.25rem}.contact-box.svelte-19lgsd p.svelte-19lgsd{font-size:0.9rem}.contact-box.svelte-19lgsd .icon.svelte-19lgsd{font-size:36px}}',
+  map: null
+};
+const Contacts = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  $$result.css.add(css);
+  return `<div class="contact-div svelte-19lgsd"><main><section class="contact-section svelte-19lgsd"><div class="container svelte-19lgsd"><h2 class="svelte-19lgsd">Contact Us</h2>
+            <div class="contact-content svelte-19lgsd"><div class="contact-info svelte-19lgsd"><h3 class="svelte-19lgsd">Get in Touch</h3>
+                    <p class="svelte-19lgsd"><strong>Address:</strong> 5,Tarangan Society,MIT College Squre,Paud Road,Pune-411038,Maharastra</p>
+                    <p class="svelte-19lgsd"><strong>Phone:</strong> +91 93560 07569</p>
+                    <p class="svelte-19lgsd"><strong>Email:</strong> sanjivanfoundation3@gmail.com</p>
+                    <p class="svelte-19lgsd"><strong>Follow Us:</strong></p>
+                    <div class="social-links svelte-19lgsd"><a href="#" aria-label="Facebook" target="_blank" class="svelte-19lgsd"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter" target="_blank" class="svelte-19lgsd"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram" target="_blank" class="svelte-19lgsd"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn" target="_blank" class="svelte-19lgsd"><i class="fab fa-linkedin-in"></i></a></div></div>
+                <div class="contact-form svelte-19lgsd"><form action="#" method="post"><div class="form-group svelte-19lgsd"><label for="name" class="svelte-19lgsd">Name<span class="svelte-19lgsd">*</span></label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name" class="svelte-19lgsd"></div>
+                        <div class="form-group svelte-19lgsd"><label for="email" class="svelte-19lgsd">Email<span class="svelte-19lgsd">*</span></label>
+                            <input type="email" id="email" name="email" required placeholder="Your Email" class="svelte-19lgsd"></div>
+                        <div class="form-group svelte-19lgsd"><label for="subject" class="svelte-19lgsd">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" class="svelte-19lgsd"></div>
+                        <div class="form-group svelte-19lgsd"><label for="message" class="svelte-19lgsd">Message<span class="svelte-19lgsd">*</span></label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Your Message" class="svelte-19lgsd"></textarea></div>
+                        <button type="submit" class="btn btn-success svelte-19lgsd">Send Message</button></form></div></div>
+            <div class="map svelte-19lgsd"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.4127028366665!2d73.81271137496265!3d18.51024318258136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfbc7bab0ec7%3A0xfd338fe9e3cc29ca!2z4Kqw4Kq-4KqcIOCqruCri-Cqn-CqsOCrjeCquA!5e0!3m2!1sgu!2sin!4v1728295641408!5m2!1sgu!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="svelte-19lgsd"></iframe></div></div></section></main>
+    <h1 style="text-align: center; color: #1F618D; margin-top: 40px;">Find Us Here</h1>
+    <div class="contact-container svelte-19lgsd"><div class="contact-box svelte-19lgsd"><div class="icon svelte-19lgsd">📞</div>
+            <h3 class="svelte-19lgsd">Phone</h3>
+            <p class="svelte-19lgsd">+91 93075 49921</p></div>
+        <div class="contact-box svelte-19lgsd"><div class="icon svelte-19lgsd">✉️</div>
+            <h3 class="svelte-19lgsd">Email</h3>
+            <p class="svelte-19lgsd">sanjivanfoundation3@gmail.com</p></div>
+        <div class="contact-box svelte-19lgsd"><div class="icon svelte-19lgsd">📍</div>
+            <h3 class="svelte-19lgsd">Location</h3>
+            <p class="svelte-19lgsd">5,Tarangan Society,MIT College Squre,Paud Road,Pune-411038,Maharastra</p></div></div>
+    ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}
+</div>`;
+});
+const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `${validate_component(Contacts, "Contacts").$$render($$result, {}, {}, {})}`;
+});
+
+export { Page as default };
+//# sourceMappingURL=_page.svelte-7d6cacff.js.map

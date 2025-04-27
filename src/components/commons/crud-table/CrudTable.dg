@@ -1,0 +1,150 @@
+{
+    "page": [
+        {
+            "child": [
+                {
+                    "child": [
+                    ],
+                    "control_id": "Table",
+                    "name": "Table",
+                    "parent_id": "Div",
+                    "parent_index": "1",
+                    "properties": {
+                        "Action1": {
+                            "Dialog": "",
+                            "Value": "()=> { dispatch('onEdit', v_dt)  }"
+                        },
+                        "Action1-icon": {
+                            "Dialog": "",
+                            "Value": "bi bi-pencil-square"
+                        },
+                        "Action2": {
+                            "Dialog": "",
+                            "Value": ""
+                        },
+                        "Action2-icon": {
+                            "Dialog": "",
+                            "Value": ""
+                        },
+                        "Action3": {
+                            "Dialog": "",
+                            "Value": ""
+                        },
+                        "Action3-icon": {
+                            "Dialog": "",
+                            "Value": ""
+                        },
+                        "Class": {
+                            "Dialog": "",
+                            "Value": "table table-bordered table-sm"
+                        },
+                        "Color": {
+                            "Dialog": "Color",
+                            "Value": ""
+                        },
+                        "Columns": {
+                            "Dialog": "",
+                            "Value": "12"
+                        },
+                        "Control-name": {
+                            "Dialog": "",
+                            "Value": ""
+                        },
+                        "Custom": {
+                            "Dialog": "TextArea",
+                            "Value": ""
+                        },
+                        "Data-source": {
+                            "Dialog": "",
+                            "Value": "config.data"
+                        },
+                        "Exclude": {
+                            "Dialog": "YesNo",
+                            "Value": "No"
+                        },
+                        "Header-source": {
+                            "Dialog": "",
+                            "Value": "config.headers"
+                        },
+                        "ID": {
+                            "Dialog": "",
+                            "Value": "T1"
+                        },
+                        "Margin": {
+                            "Dialog": "Margin",
+                            "Value": ""
+                        },
+                        "Name": {
+                            "Dialog": "",
+                            "Value": ""
+                        },
+                        "Style": {
+                            "Dialog": "Style",
+                            "Value": ""
+                        }
+                    },
+                    "styling": "Bootstrap"
+                }
+            ],
+            "control_id": "Div",
+            "name": "Div",
+            "parent_id": "",
+            "parent_index": "0",
+            "properties": {
+                "Class": {
+                    "Dialog": "",
+                    "Value": "mt-2"
+                },
+                "Click-event": {
+                    "Dialog": "",
+                    "Value": ""
+                },
+                "Columns": {
+                    "Dialog": "",
+                    "Value": "12"
+                },
+                "Condition": {
+                    "Dialog": "TextArea",
+                    "Value": ""
+                },
+                "Control-name": {
+                    "Dialog": "",
+                    "Value": ""
+                },
+                "Custom": {
+                    "Dialog": "TextArea",
+                    "Value": ""
+                },
+                "Display-label": {
+                    "Dialog": "TextArea",
+                    "Value": ""
+                },
+                "Exclude": {
+                    "Dialog": "yesno",
+                    "Value": "No"
+                },
+                "ID": {
+                    "Dialog": "",
+                    "Value": ""
+                },
+                "Loop-source": {
+                    "Dialog": "",
+                    "Value": ""
+                },
+                "Loop-variable": {
+                    "Dialog": "",
+                    "Value": ""
+                },
+                "Name": {
+                    "Dialog": "",
+                    "Value": ""
+                },
+                "Style": {
+                    "Dialog": "Style",
+                    "Value": ""
+                }
+            },
+            "styling": "Bootstrap"
+        }
+    ]
+}
